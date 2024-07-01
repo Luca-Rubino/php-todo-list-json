@@ -1,0 +1,18 @@
+[
+    {
+        "compito": "Fare la spesa",
+        "completato": true
+    },
+    {
+        "compito": "fare il bucato",
+        "completato": false
+    },
+    {
+        "compito": "Leggere un libro",
+        "completato": true
+    },
+    {
+        "compito": "Pulizia della casa",
+        "completato": false
+    }
+]
