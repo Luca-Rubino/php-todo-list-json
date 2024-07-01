@@ -9,6 +9,6 @@ $rawData = file_get_contents('../json/todolist.json');
 $data = json_decode($rawData, true);
 
 // mostro la lista in pagina
-echo json_encode($rawData);
+echo json_encode($data);
 
 ?>
