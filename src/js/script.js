@@ -14,7 +14,8 @@ const { createApp } = Vue
                         }
                     })
                     .then((response) =>  {
-                        this.todoList = response.data;
+                        this.todoList = response.data.tasks;
+                        // console.log(this.todoList);
                     })
                     .catch(function (error) {
                         console.log(error);
@@ -27,5 +28,4 @@ const { createApp } = Vue
         created(){
             this.getApi();
         },
-
 }).mount('#app')
