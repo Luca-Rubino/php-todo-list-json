@@ -1,10 +1,11 @@
-[
+{
+   "tasks": [
     {
         "compito": "Fare la spesa",
         "completato": true
     },
     {
-        "compito": "fare il bucato",
+        "compito": "Fare il bucato",
         "completato": false
     },
     {
@@ -15,4 +16,5 @@
         "compito": "Pulizia della casa",
         "completato": false
     }
-]
+   ]
+}
